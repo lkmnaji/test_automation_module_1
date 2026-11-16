@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ### C. Konfigurasi `.env`
 Sesuaikan kredensial dan URL target di file `.env`:
 ```env
-BASE_URL=https://fe-p2p-partnership-portal-dev2.apps.mypaas.telkom.co.id/
+BASE_URL=https://contoh-sistem-anda.com/login
 VALID_USERNAME=user_anda@email.com
 VALID_PASSWORD=PasswordRahasia123!
 ```
