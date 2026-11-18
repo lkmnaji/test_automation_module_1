@@ -1,26 +1,54 @@
-# Virtual Environment
-.venv/
-venv/
-ENV/
-
-# Python Cache
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.pytest_cache/
-
-# Environment Variables (Sensitif)
+# ==========================================
+# 1. Environment Variables (Sensitif / Rahasia)
+# ==========================================
 .env
 .env.local
 .env.*.local
 !.env.example
 
-# Test Reports & Screenshots
+# ==========================================
+# 2. Test Reports, Screenshots & Assets
+# ==========================================
 reports/*.html
 reports/assets/
 reports/screenshots/
 *.png
+*.jpg
+*.jpeg
 
-# macOS
+# ==========================================
+# 3. Virtual Environment & Dependencies
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+node_modules/
+
+# ==========================================
+# 4. Python Cache & Logs
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.log
+chromedriver.log
+geckodriver.log
+
+# ==========================================
+# 5. OS & IDE Metadata
+# ==========================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+
+# ==========================================
+# 6. Vendor Agent Skills
+# ==========================================
+.agents/
